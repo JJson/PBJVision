@@ -707,7 +707,7 @@ typedef NS_ENUM(GLint, PBJVisionUniformLocationTypes)
         _captureSessionDispatchQueue = dispatch_queue_create("PBJVisionSession", DISPATCH_QUEUE_SERIAL); // protects session
         _captureCaptureDispatchQueue = dispatch_queue_create("PBJVisionCapture", DISPATCH_QUEUE_SERIAL); // protects capture
         
-        _previewLayer = [[AVCaptureVideoPreviewLayer alloc] initWithSession:nil];
+        _previewLayer = [[AVCaptureVideoPreviewLayer alloc] initWithSession:_captureSession];
         
         _maximumCaptureDuration = kCMTimeInvalid;
 

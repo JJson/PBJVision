@@ -341,7 +341,8 @@
 						ProvisioningStyle = Automatic;
 					};
 					0683D1BD179F2E1700EE66D6 = {
-						DevelopmentTeam = WPFGSL5BLN;
+						DevelopmentTeam = 22Y7XV72K5;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -553,11 +554,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = WPFGSL5BLN;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 22Y7XV72K5;
 				GCC_PREFIX_HEADER = "Vision/Vision-Prefix.pch";
 				INFOPLIST_FILE = "Vision/Vision-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickpiemonte.${PRODUCT_NAME:rfc1034identifier}";
-				PROVISIONING_PROFILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.newcunnar.Vision-iOS";
+				PROVISIONING_PROFILE = "5810d900-f1cb-4617-bd6a-5c3849fe4f1b";
+				PROVISIONING_PROFILE_SPECIFIER = test_team;
 			};
 			name = Debug;
 		};
@@ -567,11 +571,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = WPFGSL5BLN;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = "Vision/Vision-Prefix.pch";
 				INFOPLIST_FILE = "Vision/Vision-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickpiemonte.${PRODUCT_NAME:rfc1034identifier}";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.newcunnar.Vision-iOS";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
